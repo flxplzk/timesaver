@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/frontend/frontend.iml" filepath="$PROJECT_DIR$/frontend/frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/timesaver.iml" filepath="$PROJECT_DIR$/timesaver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vaadin/vaadin.iml" filepath="$PROJECT_DIR$/vaadin/vaadin.iml" />
+    </modules>
+  </component>
+</project>
