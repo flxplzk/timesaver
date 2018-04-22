@@ -14,9 +14,9 @@ import de.flxplzk.frontend.ui.common.event.TimeSaverEventBus;
 import de.flxplzk.frontend.ui.common.event.TimerSaverEvent;
 import de.flxplzk.frontend.ui.common.event.TimerSaverEvent.UserLoggedOutEvent;
 import de.flxplzk.frontend.ui.common.event.TimerSaverEvent.UserLoginRequestedEvent;
-import de.flxplzk.frontend.ui.components.LoginView;
-import de.flxplzk.frontend.ui.components.MainView;
-import de.flxplzk.frontend.ui.components.menu.MenuView;
+import de.flxplzk.frontend.ui.view.components.LoginView;
+import de.flxplzk.frontend.ui.view.components.MainViewComponent;
+import de.flxplzk.vaadin.mvvm.ViewModelComposer;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -30,15 +30,17 @@ public class TimeSaverUI extends UI {
     private final SpringNavigator navigator;
     private final SpringViewProvider viewProvider;
     private final TimeSaverEventBus eventBus;
+    private final ViewModelComposer viewModelComposer;
 
-    private MainView mainView;
+    private MainViewComponent mainView;
 
     @Autowired
-    public TimeSaverUI(TimeSaverEventBus eventBus, UserService userService, SpringNavigator navigator, SpringViewProvider viewProvider) {
+    public TimeSaverUI(TimeSaverEventBus eventBus, UserService userService, SpringNavigator navigator, SpringViewProvider viewProvider, ViewModelComposer viewModelComposer) {
         this.eventBus = eventBus;
         this.userService = userService;
         this.navigator = navigator;
         this.viewProvider = viewProvider;
+        this.viewModelComposer = viewModelComposer;
     }
 
     @Override
@@ -55,7 +57,7 @@ public class TimeSaverUI extends UI {
                 .getAttribute(User.class.getName());
         if (user != null) {
             // Authenticated user
-            this.mainView = new MainView(new MenuView(this.eventBus, this.viewProvider));
+            this.mainView = new MainViewComponent(viewModelComposer);
             initNavigator();
             setContent(mainView);
             removeStyleName("loginview");
@@ -95,5 +97,7 @@ public class TimeSaverUI extends UI {
         getNavigator().navigateTo(navigationRequestEvent.getDestionationViewName());
     }
 
+    public SpringNavigator getSpringNavigator() {
+        return this.navigator;
+    }
 }
-

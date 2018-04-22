@@ -40,6 +40,7 @@ public class AbstractViewComponent extends CustomComponent implements ViewCompon
     @Override
     public void beforeLeave(ViewBeforeLeaveEvent event) {
         this.unbind();
+        event.navigate();
     }
 
     @Override
@@ -51,6 +52,7 @@ public class AbstractViewComponent extends CustomComponent implements ViewCompon
     public void unbind() {
         if (this.viewModelRegistration != null) {
             viewModelRegistration.remove();
+            viewModelRegistration = null;
         }
     }
 }
