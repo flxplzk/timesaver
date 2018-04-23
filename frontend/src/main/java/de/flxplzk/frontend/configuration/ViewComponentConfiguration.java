@@ -2,6 +2,7 @@ package de.flxplzk.frontend.configuration;
 
 import de.flxplzk.frontend.ui.view.components.CrudEmployeeProfileViewComponent;
 import de.flxplzk.frontend.ui.view.components.CrudEmployeeViewComponent;
+import de.flxplzk.frontend.ui.view.components.CrudTransactionViewComponent;
 import de.flxplzk.vaadin.common.ViewComponent;
 import de.flxplzk.vaadin.mvvm.ViewModelComposer;
 import org.springframework.context.annotation.Bean;
@@ -22,4 +23,11 @@ public class ViewComponentConfiguration {
     public ViewComponent crudEmployeeViewComponent(ViewModelComposer viewModelComposer) {
         return new CrudEmployeeViewComponent(viewModelComposer);
     }
+
+    @Bean
+    @Scope(value = "prototype")
+    public ViewComponent crudTransactionViewComponent(ViewModelComposer viewModelComposer) {
+        return new CrudTransactionViewComponent(viewModelComposer);
+    }
+
 }

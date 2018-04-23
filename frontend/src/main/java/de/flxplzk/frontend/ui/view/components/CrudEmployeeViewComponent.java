@@ -3,6 +3,7 @@ package de.flxplzk.frontend.ui.view.components;
 import com.vaadin.data.HasValue;
 import com.vaadin.shared.Registration;
 import com.vaadin.ui.*;
+import com.vaadin.ui.themes.ValoTheme;
 import de.flxplzk.frontend.backend.domain.EmployeeProfile;
 import de.flxplzk.vaadin.common.AbstractViewComponent;
 import de.flxplzk.vaadin.mvvm.*;
@@ -30,12 +31,17 @@ public class CrudEmployeeViewComponent extends AbstractViewComponent implements 
 
     @OnClick(method = "save")
     private final Button mSaveButton = new Button("Speichern");
+
+    @OnClick(method = "cancel")
+    private final Button mCancelButton = new Button("Abrechen");
+
     private VerticalLayout rootLayout = new VerticalLayout(
-            mFirstName,
-            mLastName,
-            mEmployeeDate,
-            profileComboBox,
-            mSaveButton);
+            this.mFirstName,
+            this.mLastName,
+            this.mEmployeeDate,
+            this.profileComboBox,
+            this.mSaveButton,
+            this.mCancelButton);
 
     public CrudEmployeeViewComponent(ViewModelComposer viewModelComposer) {
         super(viewModelComposer);
@@ -53,6 +59,8 @@ public class CrudEmployeeViewComponent extends AbstractViewComponent implements 
         this.mLastName.setSizeFull();
         this.profileComboBox.setSizeFull();
         this.mSaveButton.setSizeFull();
+        this.mSaveButton.addStyleName(ValoTheme.BUTTON_PRIMARY);
+        this.mCancelButton.setSizeFull();
         this.registerListeners();
     }
 

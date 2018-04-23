@@ -1,5 +1,7 @@
 package de.flxplzk.frontend.backend.domain;
 
+import com.google.common.base.Objects;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
@@ -26,22 +28,9 @@ public class Employee {
     public Employee() {
     }
 
-    public Employee(String firstName, String lastName, LocalDate employeeDate, LocalDate unemployeeDate, EmployeeProfile employeeProfile) {
+    public Employee(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
-        this.employeeDate = employeeDate;
-        this.unemployeeDate = unemployeeDate;
-        this.employeeProfile = employeeProfile;
-    }
-
-    public Employee(String firstName, String lastName, LocalDate employeeDate, LocalDate unemployeeDate, EmployeeProfile employeeProfile, double hourAccount, int holidayAccount) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.employeeDate = employeeDate;
-        this.unemployeeDate = unemployeeDate;
-        this.employeeProfile = employeeProfile;
-        this.hourAccount = hourAccount;
-        this.holidayAccount = holidayAccount;
     }
 
     public long getId() {
@@ -106,5 +95,25 @@ public class Employee {
 
     public void setHolidayAccount(int holidayAccount) {
         this.holidayAccount = holidayAccount;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return id == employee.id &&
+                Double.compare(employee.hourAccount, hourAccount) == 0 &&
+                holidayAccount == employee.holidayAccount &&
+                Objects.equal(firstName, employee.firstName) &&
+                Objects.equal(lastName, employee.lastName) &&
+                Objects.equal(employeeDate, employee.employeeDate) &&
+                Objects.equal(unemployeeDate, employee.unemployeeDate) &&
+                Objects.equal(employeeProfile, employee.employeeProfile);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hashCode(id, firstName, lastName, employeeDate, unemployeeDate, employeeProfile, hourAccount, holidayAccount);
     }
 }

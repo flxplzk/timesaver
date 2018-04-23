@@ -32,7 +32,7 @@ public class TransactionView extends AbstractViewComponent {
     private final HorizontalLayout searchPanel = new HorizontalLayout(this.searchTextField);
     private final VerticalLayout rootLayout = new VerticalLayout(this.searchPanel, this.transactionGrid);
 
-    public TransactionView(ViewModelComposer viewModelComposer){
+    public TransactionView(ViewModelComposer viewModelComposer) {
         super(viewModelComposer);
         init();
     }
@@ -40,7 +40,7 @@ public class TransactionView extends AbstractViewComponent {
     /**
      * UI initialization has to be done here.
      */
-    private void init(){
+    private void init() {
         setCompositionRoot(this.rootLayout);
 
         this.searchPanel.setSizeFull();
@@ -62,7 +62,7 @@ public class TransactionView extends AbstractViewComponent {
                 .addColumn(transaction -> transaction.getEmployee().getFirstName() + " " + transaction.getEmployee().getLastName())
                 .setCaption("Mitarbeiter");
         this.transactionGrid
-                .addColumn(Transaction::getTransactionType)
+                .addColumn(transaction -> transaction.getTransactionType() + " - " + transaction.getTransactionType().getName())
                 .setCaption("Buchungsart");
         this.transactionGrid
                 .addColumn(Transaction::getTransactionDate)
@@ -77,7 +77,11 @@ public class TransactionView extends AbstractViewComponent {
                 .addColumn(transaction -> transaction.getMinutesBreak())
                 .setCaption("Pause (min)");
         this.transactionGrid
-                .addColumn(transaction -> transaction.getAmount())
+                .addColumn(transaction -> {
+                    long hours = transaction.getAmount() / 60;
+                    long minutes = transaction. getAmount() % 60;
+                    return String.valueOf(hours) + "h:" + String.valueOf(minutes) +"min";
+                })
                 .setCaption("Arbeitszeit");
     }
 

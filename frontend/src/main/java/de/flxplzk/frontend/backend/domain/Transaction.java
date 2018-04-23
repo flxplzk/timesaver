@@ -22,6 +22,7 @@ public class Transaction {
     private int minutesBreak;
     private LocalDateTime created;
 
+
     @Enumerated(EnumType.STRING)
     private BillingStatus billingStatus;
     private long amount;
@@ -99,5 +100,12 @@ public class Transaction {
 
     public void setAmount(long amount){
         this.amount = amount;
+    }
+    public BillingStatus getBillingStatus() {
+        return billingStatus;
+    }
+
+    public void setBillingStatus(BillingStatus billingStatus) {
+        this.billingStatus = billingStatus;
     }
 }

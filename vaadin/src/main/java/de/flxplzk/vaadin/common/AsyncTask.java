@@ -10,6 +10,7 @@ import java.util.concurrent.ForkJoinPool;
  */
 public abstract class AsyncTask<P, R> {
 
+
     private boolean isExecuting = false;
 
     /**
@@ -21,30 +22,39 @@ public abstract class AsyncTask<P, R> {
     public void execute(P... params) {
         if (!isExecuting) {
             this.isExecuting = true;
+            this.onPreExecute();
             ForkJoinPool.commonPool().submit(() -> {
-                this.onPreExecute();
-                R result = this.doInBackground(params);
-                this.onPostExecute(result);
+                try {
+                    R result = doInBackground(params);
+                    this.isExecuting = false;
+                    this.onPostExecute(result);
+                } catch (RuntimeException cause) {
+                    this.onError(cause);
+                }
             });
-
-        } else {
+        } else{
             throw new CommonAddOnException.AsyncTaskException("Task is already executing");
         }
     }
 
-    protected void onPreExecute() {}
+    protected void onPreExecute () {
+    }
 
     /**
-     * the task to compute has to be defined in this method
+     * the task to compute hast to be defined in this method
      *
      * @param params e.g. URLs, args ...
      * @return
      */
-    protected abstract R doInBackground(P... params);
+    protected abstract R doInBackground (P...params);
 
     /**
      * notification to the user should be done in this method
      */
-    protected abstract void onPostExecute(R result);
+    protected abstract void onPostExecute (R result);
+
+    protected void onError (RuntimeException cause){
+        throw cause;
+    }
 
 }

@@ -29,7 +29,18 @@ public class CrudEmployeeProfileViewComponent extends AbstractViewComponent{
 
     @OnClick(method = "save")
     private final Button mSaveButton = new Button("Speichern");
-    private VerticalLayout rootLayout = new VerticalLayout(this.mProfileNameTextField, this.mPermanentEmployedCheckBox, this.mWeeklyHoursTextField, this.mYearlyHolidayTextField, this.mSaveButton);
+
+    @OnClick(method = "cancel")
+    private final Button mCancelButton = new Button("Abrechen");
+
+    private VerticalLayout rootLayout = new VerticalLayout(
+            this.mProfileNameTextField,
+            this.mPermanentEmployedCheckBox,
+            this.mWeeklyHoursTextField,
+            this.mYearlyHolidayTextField,
+            this.mSaveButton,
+            this.mCancelButton
+    );
 
     public CrudEmployeeProfileViewComponent(ViewModelComposer viewModelComposer) {
         super(viewModelComposer);
@@ -44,11 +55,15 @@ public class CrudEmployeeProfileViewComponent extends AbstractViewComponent{
     private void style() {
         this.rootLayout.setMargin(true);
         this.rootLayout.setSizeFull();
+
         this.mProfileNameTextField.setPlaceholder("Name ...");
         this.mProfileNameTextField.setSizeFull();
         this.mWeeklyHoursTextField.setPlaceholder("Wochenstunden ...");
         this.mWeeklyHoursTextField.setSizeFull();
         this.mYearlyHolidayTextField.setPlaceholder("Urlaubstage ...");
+        this.mYearlyHolidayTextField.setSizeFull();
+        this.mSaveButton.setSizeFull();
         this.mSaveButton.setStyleName(ValoTheme.BUTTON_PRIMARY);
+        this.mCancelButton.setSizeFull();
     }
 }
