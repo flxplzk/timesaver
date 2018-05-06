@@ -2,15 +2,19 @@ package de.flxplzk.frontend.configuration;
 
 import de.flxplzk.frontend.backend.domain.Employee;
 import de.flxplzk.frontend.backend.domain.EmployeeProfile;
+import de.flxplzk.frontend.backend.domain.Transaction;
+import de.flxplzk.frontend.backend.processor.Processor;
 import de.flxplzk.frontend.backend.repository.EmployeeProfileRepository;
 import de.flxplzk.frontend.backend.repository.EmployeeRepository;
+import de.flxplzk.frontend.backend.repository.ReportRepository;
 import de.flxplzk.frontend.backend.repository.TransactionRepository;
-import de.flxplzk.frontend.backend.service.EmployeeProfileService;
-import de.flxplzk.frontend.backend.service.EmployeeService;
-import de.flxplzk.frontend.backend.service.TransactionService;
-import de.flxplzk.frontend.backend.service.UserService;
+import de.flxplzk.frontend.backend.service.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.util.List;
 
 @Configuration
 public class ServiceConfiguration {
@@ -36,6 +40,11 @@ public class ServiceConfiguration {
         return new TransactionService(transactionRepository);
     }
 
+    @Bean
+    public ReportService reportService(ReportRepository reportRepository, Processor<List<Transaction>, ByteArrayOutputStream> reportFileProcessor, TransactionRepository transactionRepository) {
+        return new ReportService(reportRepository, reportFileProcessor, transactionRepository);
+    }
+
 
     public void generateEmployeeFakeData(EmployeeProfileService employeeProfileService, EmployeeService employeeService){
         EmployeeProfile employeeProfile = new EmployeeProfile();
@@ -53,15 +62,11 @@ public class ServiceConfiguration {
         Employee employee = new Employee();
         employee.setFirstName("Felix");
         employee.setLastName("Plazek");
-        employee.setHolidayAccount(0);
-        employee.setHourAccount(0);
         employee.setEmployeeProfile(employeeProfileService.findAll().get(0));
         employeeService.save(employee);
         employee = new Employee();
         employee.setFirstName("Isabel");
         employee.setLastName("Lorenz");
-        employee.setHolidayAccount(0);
-        employee.setHourAccount(0);
         employee.setEmployeeProfile(employeeProfileService.findAll().get(1));
         employeeService.save(employee);
     }

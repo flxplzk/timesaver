@@ -29,7 +29,7 @@ public class EmployeeView extends AbstractViewComponent {
     @ItemBound(to = "filterText")
     private final TextField mFilterTextField = new TextField();
 
-    private final  HorizontalLayout panel = new HorizontalLayout(this.mFilterTextField);
+    private final HorizontalLayout panel = new HorizontalLayout(this.mFilterTextField);
     private final VerticalLayout rootLayout = new VerticalLayout(this.panel, this.employeeGrid);
 
     public EmployeeView(ViewModelComposer viewModelComposer) {

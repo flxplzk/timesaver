@@ -14,30 +14,15 @@ import java.util.List;
 public class EmployeeViewModel implements HasValue.ValueChangeListener<String>, Subscribable.ServiceListener<Employee> {
 
     private final EmployeeService employeeService;
-    private final EmployeeProfileService profileService;
-
-    private final CrudEmployeeViewModel crudEmployeeViewModel;
-    private final CrudEmployeeProfileViewModel crudEmployeeProfileViewModel;
 
     private final Property<String> filterText = new Property<>("");
     private final Property<List<Employee>> employees = new Property<>(new ArrayList<>());
 
-    public EmployeeViewModel(EmployeeProfileService profileService, EmployeeService service, CrudEmployeeViewModel crudEmployeeViewModel, CrudEmployeeProfileViewModel crudEmployeeProfileViewModel) {
-        this.profileService = profileService;
+    public EmployeeViewModel(EmployeeService service) {
         this.employeeService = service;
-        this.crudEmployeeViewModel = crudEmployeeViewModel;
-        this.crudEmployeeProfileViewModel = crudEmployeeProfileViewModel;
         this.employees.setValue(this.employeeService.findAll());
         this.filterText.addValueChangeListener(this);
         this.employeeService.addListener(this);
-    }
-
-    public void setEmptyEmployeeProfile(){
-        this.crudEmployeeProfileViewModel.setModel(new EmployeeProfile());
-    }
-
-    public void setEmptyEmployee() {
-        this.crudEmployeeViewModel.setModel(new Employee());
     }
 
     @Override

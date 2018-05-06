@@ -22,6 +22,9 @@ public class CrudTransactionViewComponent extends AbstractViewComponent {
     @ListingBound(to = "transactionTypes")
     private final ComboBox<TransactionType> transactionTypeComboBox = new ComboBox<>("Buchungsart");
 
+    @ItemBound(to = "showTimeSelection")
+    private final Property<Boolean> showTimeSelection = new Property<>(Boolean.FALSE);
+
     @ItemBound(to = "fromDateTime")
     private final DateTimeField fromDateTime = new DateTimeField("Von");
 
@@ -69,5 +72,10 @@ public class CrudTransactionViewComponent extends AbstractViewComponent {
         this.cancelButton.setSizeFull();
         this.transactionTypeComboBox.setItemCaptionGenerator(TransactionType::getName);
         this.employeeComboBox.setItemCaptionGenerator(employee -> employee.getFirstName() + " " + employee.getLastName());
+        this.showTimeSelection.addValueChangeListener(valueChangeEvent -> {
+            this.fromDateTime.setVisible(valueChangeEvent.getValue());
+            this.toDateTimeField.setVisible(valueChangeEvent.getValue());
+            this.breakField.setVisible(valueChangeEvent.getValue());
+        });
     }
 }

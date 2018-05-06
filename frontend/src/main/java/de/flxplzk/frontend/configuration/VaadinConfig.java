@@ -6,9 +6,13 @@ import com.vaadin.spring.annotation.UIScope;
 import com.vaadin.spring.annotation.VaadinSessionScope;
 import com.vaadin.ui.UI;
 
+import de.flxplzk.frontend.backend.domain.Transaction;
+import de.flxplzk.frontend.backend.processor.Processor;
+import de.flxplzk.frontend.backend.processor.ReportFileProcessor;
 import de.flxplzk.frontend.ui.TimeSaverUI;
 import de.flxplzk.frontend.ui.common.event.TimeSaverEventBus;
 import de.flxplzk.frontend.ui.view.components.EmployeeView;
+import de.flxplzk.frontend.ui.view.components.ReportViewComponent;
 import de.flxplzk.frontend.ui.view.components.TransactionView;
 import de.flxplzk.vaadin.common.MenuItem;
 import de.flxplzk.vaadin.common.NotificationManager;
@@ -19,7 +23,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import java.io.ByteArrayOutputStream;
+import java.io.File;
 import java.util.Collection;
+import java.util.List;
 
 @Configuration
 public class VaadinConfig {
@@ -37,6 +44,11 @@ public class VaadinConfig {
     }
 
     @Bean
+    public Processor<List<Transaction>, ByteArrayOutputStream> reportFileProcessor() {
+        return new ReportFileProcessor();
+    }
+
+    @Bean
     @VaadinSessionScope
     public Collection<MenuItem> items(){
         MenuItem create = new MenuItem("Neu", VaadinIcons.PLUS_CIRCLE, MenuItem.ActionType.VOID, "", Lists.newArrayList());
@@ -47,6 +59,7 @@ public class VaadinConfig {
         MenuItem views = new MenuItem("Daten", VaadinIcons.RECORDS, MenuItem.ActionType.VOID, "", Lists.newArrayList());
         views.getChildren().add(new MenuItem("Mitarbeiter", VaadinIcons.RECORDS, MenuItem.ActionType.VIEW, EmployeeView.VIEW_NAME, Lists.newArrayList()));
         views.getChildren().add(new MenuItem("Transaktionen", VaadinIcons.RECORDS, MenuItem.ActionType.VIEW, TransactionView.VIEW_NAME, Lists.newArrayList()));
+        views.getChildren().add(new MenuItem("Listen", VaadinIcons.RECORDS, MenuItem.ActionType.VIEW, ReportViewComponent.VIEW_NAME, Lists.newArrayList()));
 
         return Lists.newArrayList(create, views);
     }

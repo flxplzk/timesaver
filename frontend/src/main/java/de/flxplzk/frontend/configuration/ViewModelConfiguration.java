@@ -1,8 +1,10 @@
 package de.flxplzk.frontend.configuration;
 
 import com.vaadin.spring.annotation.UIScope;
+import com.vaadin.ui.UI;
 import de.flxplzk.frontend.backend.service.EmployeeProfileService;
 import de.flxplzk.frontend.backend.service.EmployeeService;
+import de.flxplzk.frontend.backend.service.ReportService;
 import de.flxplzk.frontend.backend.service.TransactionService;
 import de.flxplzk.frontend.ui.TimeSaverUI;
 import de.flxplzk.frontend.ui.view.model.*;
@@ -26,14 +28,20 @@ public class ViewModelConfiguration {
 
     @Bean
     @UIScope
-    public EmployeeViewModel employeeViewModel(EmployeeProfileService employeeProfileService, EmployeeService employeeService, CrudEmployeeViewModel crudEmployeeViewModel, CrudEmployeeProfileViewModel crudEmployeeProfileViewModel){
-        return new EmployeeViewModel(employeeProfileService, employeeService, crudEmployeeViewModel, crudEmployeeProfileViewModel);
+    public EmployeeViewModel employeeViewModel(EmployeeService employeeService){
+        return new EmployeeViewModel(employeeService);
     }
 
     @Bean
     @UIScope
-    public TransactionViewModel transactionViewModel(TransactionService transactionService){
-        return new TransactionViewModel(transactionService);
+    public ReportViewModel reportViewModel(ReportService reportService, UI currentUI, NotificationManager notificationManager){
+        return new ReportViewModel(reportService, currentUI, notificationManager);
+    }
+
+    @Bean
+    @UIScope
+    public TransactionViewModel transactionViewModel(TransactionService transactionService, NotificationManager notificationManager, TimeSaverUI currentUI, EmployeeService employeeService){
+        return new TransactionViewModel(transactionService, employeeService, notificationManager, currentUI);
     }
 
     @Bean

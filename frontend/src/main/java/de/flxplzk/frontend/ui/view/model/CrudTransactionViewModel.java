@@ -33,6 +33,7 @@ public class CrudTransactionViewModel {
     private final Property<LocalDateTime> toDateTime = new Property<>(TO_DATE_TIME);
     private final Property<String> breakMinutes = new Property<>(String.valueOf(0));
     private final Property<Boolean> enableSave = new Property<>(Boolean.FALSE);
+    private final Property<Boolean> showTimeSelection = new Property<>(Boolean.TRUE);
 
     private final TransactionService transactionService;
     private final SpringNavigator navigator;
@@ -51,6 +52,7 @@ public class CrudTransactionViewModel {
         this.registrations.add(this.selectedEmployee.addValueChangeListener(valueChangeEvent -> enableSave()));
         this.registrations.add(this.fromDateTime.addValueChangeListener(valueChangeEvent -> enableSave()));
         this.registrations.add(this.toDateTime.addValueChangeListener(valueChangeEvent -> enableSave()));
+        this.registrations.add(this.selectedType.addValueChangeListener(valueChangeEvent -> this.showTimeSelection.setValue(TransactionType.SB.equals(valueChangeEvent.getValue()))));
     }
 
     private void enableSave() {

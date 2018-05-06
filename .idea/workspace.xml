@@ -2,48 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fddbf4d-e46b-454b-aeff-aeca1eca3556" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_atmosphere_atmosphere_runtime_2_4_11_vaadin2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_slf4j_vaadin_slf4j_jdk14_1_6_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_vaadin_push_8_2_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/Processor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/TransactionAbsenceProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/TransactionWorkingTimeProcessor.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudTransactionViewComponent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/NotificationManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/EnableBound.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/EnableBoundWiring.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_15.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_15.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_15.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/ColumnDefinition.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Report.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/ReportingPeriod.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/ReportFileProcessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/TransactionSettlementProcessor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/ReportRepository.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/ReportService.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/TransactionAlreadyBilledException.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/util/FileConverter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/util/Printer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/ReportViewComponent.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/ReportViewModel.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/SelectionBound.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/SelectionWiring.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/frontend/pom.xml" afterPath="$PROJECT_DIR$/frontend/pom.xml" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Employee.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Employee.java" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Transaction.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Transaction.java" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/Processor.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/Processor.java" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/TransactionRepository.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/TransactionRepository.java" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/TransactionService.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/TransactionService.java" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ServiceConfiguration.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ServiceConfiguration.java" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/VaadinConfig.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/VaadinConfig.java" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewComponentConfiguration.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewComponentConfiguration.java" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewModelConfiguration.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewModelConfiguration.java" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/TimeSaverUI.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/TimeSaverUI.java" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudEmployeeProfileViewComponent.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudEmployeeProfileViewComponent.java" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudEmployeeViewComponent.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudEmployeeViewComponent.java" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudTransactionViewComponent.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudTransactionViewComponent.java" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/EmployeeView.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/EmployeeView.java" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/TransactionView.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/TransactionView.java" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudEmployeeProfileViewModel.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudEmployeeProfileViewModel.java" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudEmployeeViewModel.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudEmployeeViewModel.java" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel.java" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/EmployeeViewModel.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/EmployeeViewModel.java" />
       <change beforePath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/TransactionViewModel.java" afterPath="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/TransactionViewModel.java" />
       <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/backend/domain/Employee.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/backend/domain/Employee.class" />
       <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/backend/domain/Transaction.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/backend/domain/Transaction.class" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/backend/repository/TransactionRepository.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/backend/repository/TransactionRepository.class" />
       <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/backend/service/TransactionService.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/backend/service/TransactionService.class" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/configuration/ServiceConfiguration.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/configuration/ServiceConfiguration.class" />
       <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/configuration/VaadinConfig.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/configuration/VaadinConfig.class" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/configuration/ViewComponentConfiguration.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/configuration/ViewComponentConfiguration.class" />
       <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/configuration/ViewModelConfiguration.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/configuration/ViewModelConfiguration.class" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/TimeSaverUI.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/TimeSaverUI.class" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/components/CrudEmployeeProfileViewComponent.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/components/CrudEmployeeProfileViewComponent.class" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/components/CrudEmployeeViewComponent.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/components/CrudEmployeeViewComponent.class" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/components/CrudTransactionViewComponent.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/components/CrudTransactionViewComponent.class" />
       <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/components/TransactionView.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/components/TransactionView.class" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/CrudEmployeeProfileViewModel.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/CrudEmployeeProfileViewModel.class" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/CrudEmployeeViewModel$EmployeeServiceListener.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/CrudEmployeeViewModel$EmployeeServiceListener.class" />
-      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/CrudEmployeeViewModel.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/CrudEmployeeViewModel.class" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel$SaveTask.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel$SaveTask.class" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel.class" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/EmployeeViewModel.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/EmployeeViewModel.class" />
+      <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/TransactionViewModel$FetchTransActionsTask.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/TransactionViewModel$FetchTransActionsTask.class" />
       <change beforePath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/TransactionViewModel.class" afterPath="$PROJECT_DIR$/frontend/target/classes/de/flxplzk/frontend/ui/view/model/TransactionViewModel.class" />
-      <change beforePath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AsyncTask.java" afterPath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AsyncTask.java" />
+      <change beforePath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AsyncGridComponent.java" afterPath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AsyncGridComponent.java" />
       <change beforePath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/ViewModelComposer.java" afterPath="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/ViewModelComposer.java" />
+      <change beforePath="$PROJECT_DIR$/vaadin/target/classes/de/flxplzk/vaadin/common/AsyncGridComponent$PagingComponent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/vaadin/target/classes/de/flxplzk/vaadin/common/AsyncGridComponent.class" afterPath="$PROJECT_DIR$/vaadin/target/classes/de/flxplzk/vaadin/common/AsyncGridComponent.class" />
       <change beforePath="$PROJECT_DIR$/vaadin/target/classes/de/flxplzk/vaadin/mvvm/ViewModelComposer.class" afterPath="$PROJECT_DIR$/vaadin/target/classes/de/flxplzk/vaadin/mvvm/ViewModelComposer.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,108 +74,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="VaadinConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/VaadinConfig.java">
+      <file leaf-file-name="Report.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Report.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrudTransactionViewComponent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudTransactionViewComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+            <state relative-caret-position="409">
+              <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#844#845#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrudTransactionViewModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel.java">
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="108" column="17" lean-forward="true" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+            <state relative-caret-position="339">
+              <caret line="146" column="51" lean-forward="true" selection-start-line="146" selection-start-column="51" selection-end-line="146" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Path.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/criteria/Path.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="430">
+              <caret line="113" column="16" lean-forward="false" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReportService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/ReportService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3726#3727#0" expanded="true" />
-                <element signature="e#3757#3758#0" expanded="true" />
+                <element signature="e#1400#1401#0" expanded="true" />
+                <element signature="e#1474#1475#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AsyncTask.java">
+      <file leaf-file-name="ReportViewComponent.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/ReportViewComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="758">
+              <caret line="143" column="0" lean-forward="true" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotificationManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/NotificationManager.java">
+      <file leaf-file-name="TransactionService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/TransactionService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewModelConfiguration.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewModelConfiguration.java">
+      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/util/Printer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="14" column="81" lean-forward="false" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
+              <folding>
+                <element signature="e#317#451#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteArrayInputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/ByteArrayInputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrudEmployeeViewModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudEmployeeViewModel.java">
+      <file leaf-file-name="ReportingPeriod.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/ReportingPeriod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-139">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CrudEmployeeProfileViewModel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudEmployeeProfileViewModel.java">
+      <file leaf-file-name="TransactionRepository.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/TransactionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrudEmployeeViewComponent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudEmployeeViewComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrudEmployeeProfileViewComponent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudEmployeeProfileViewComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
-              <folding />
+            <state relative-caret-position="441">
+              <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,8 +193,8 @@
       <list>
         <option value="Enum" />
         <option value="AnnotationType" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -189,29 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend/src/main/java/de/flxplzk/backend/repository/EmployeeRepository.java" />
-        <option value="$PROJECT_DIR$/backend/src/main/java/de/flxplzk/backend/repository/TransactionRepository.java" />
-        <option value="$PROJECT_DIR$/vaadin/pom.xml" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/Application.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/employee/CrudEmployeeProfileView.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/employee/CrudEmployeeProfileViewModel.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/employee/CrudEmployeeView.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/employee/CrudEmployeeViewModel.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/employee/EmployeeView.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/report/ReportView.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/report/ReportViewModel.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/transactions/TransactionView.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/LoginView.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/employee/EmployeeViewModel.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/BillingStatus.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/MainViewModel.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/MainViewComponent.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/EmployeeViewModel.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudEmployeeProfileView.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/EmployeeView.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ServiceConfiguration.java" />
         <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AbstractViewComponent.java" />
         <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudEmployeeView.java" />
         <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/LoginView.java" />
@@ -220,26 +217,49 @@
         <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewComponentConfiguration.java" />
         <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/EnableBinding.java" />
         <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/EnableBound.java" />
-        <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/ViewModelComposer.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/Processor.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/TransactionViewModel.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/TransactionService.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Transaction.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudTransactionViewComponent.java" />
         <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/TimeSaverUI.java" />
-        <option value="$PROJECT_DIR$/frontend/pom.xml" />
         <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/TransactionWorkingTimeProcessor.java" />
         <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/TransactionAbsenceProcessor.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/TransactionView.java" />
         <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/EnableBoundWiring.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Employee.java" />
         <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/NotificationManager.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/VaadinConfig.java" />
         <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudEmployeeViewModel.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewModelConfiguration.java" />
         <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AsyncTask.java" />
-        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel.java" />
         <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudEmployeeProfileViewModel.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudTransactionViewComponent.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/EmployeeViewModel.java" />
+        <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/SelectionBound.java" />
+        <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/SelectionWiring.java" />
+        <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/ViewModelComposer.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/TransactionAlreadyBilledException.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/EmployeeView.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/TransactionViewModel.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/TransactionSettlementProcessor.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/TransactionService.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/ReportCriterion.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/ReportEntity.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/ReportRepository.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/TransactionView.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Specefication.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Specification.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/ReportingPeriod.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AsyncGridComponent.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewModelConfiguration.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Report.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/ReportFileProzessor.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/util/FileConverter.java" />
+        <option value="$PROJECT_DIR$/frontend/pom.xml" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/Processor.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/ReportFileProcessor.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/VaadinConfig.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ServiceConfiguration.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/ReportViewModel.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Transaction.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/ReportService.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/util/Printer.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/ReportViewComponent.java" />
+        <option value="$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/TransactionRepository.java" />
       </list>
     </option>
   </component>
@@ -254,6 +274,11 @@
       <MavenGeneralSettings>
         <option name="userSettingsFile" value="C:\burse\roaming\profile\.m2\settings.xml" />
       </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -305,10 +330,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -392,6 +416,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="timesaver" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -402,7 +437,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="configuration" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
@@ -413,17 +449,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="timesaver" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
@@ -460,10 +485,111 @@
               <item name="view" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.vaadin:vaadin-server:8.2.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.vaadin:vaadin-server:8.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="vaadin-server-8.2.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.vaadin:vaadin-server:8.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="vaadin-server-8.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="vaadin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: com.vaadin:vaadin-server:8.2.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="vaadin-server-8.2.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="vaadin" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-jpa-2.1-api-1.0.0.Final.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-jpa-2.1-api-1.0.0.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="persistence" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.0.12.Final" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.0.12.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.0.12.Final.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.0.12.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.0.12.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.hibernate:hibernate-core:5.0.12.Final" type="70bed36:NamedLibraryElementNode" />
+              <item name="hibernate-core-5.0.12.Final.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="annotations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:1.11.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:1.11.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-1.11.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:1.11.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-1.11.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="timesaver" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-jpa:1.11.9.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-jpa-1.11.9.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jpa" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -480,12 +606,15 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="de.flxplzk.frontend.backend.service" />
+      <recent name="de.flxplzk.frontend.backend.domain" />
       <recent name="de.flxplzk.frontend.backend.processor" />
       <recent name="de.flxplzk.vaadin.mvvm" />
-      <recent name="de.flxplzk.frontend.backend.domain" />
       <recent name="de.flxplzk.backend.service" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -676,15 +805,17 @@
       <updated>1524322923450</updated>
       <workItem from="1524322928167" duration="5897000" />
       <workItem from="1524341400869" duration="3266000" />
-      <workItem from="1524385560799" duration="30623000" />
+      <workItem from="1524385560799" duration="63398000" />
+      <workItem from="1525245812260" duration="219000" />
+      <workItem from="1525616828904" duration="6202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39786000" />
+    <option name="totallyTimeSpent" value="78982000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-8" width="1863" height="1096" extended-state="6" />
+    <frame x="65" y="-9" width="1864" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -698,17 +829,17 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3451417" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34475598" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299595" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25067678" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25027084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -765,12 +896,37 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Transaction.java</url>
-          <line>45</line>
+          <url>file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/TransactionViewModel.java</url>
+          <line>143</line>
           <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/TransactionViewModel.java</url>
+          <line>123</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AsyncGridComponent.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/ReportService.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/ReportViewModel.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -791,297 +947,140 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/welcome/HomeView.java">
+    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/ReflectionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="562">
+          <caret line="91" column="0" lean-forward="true" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/Application.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudTransactionViewComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        <state relative-caret-position="969">
+          <caret line="57" column="21" lean-forward="true" selection-start-line="57" selection-start-column="21" selection-end-line="57" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main/java/de/flxplzk/backend/Backend.java" />
-    <entry file="file://$PROJECT_DIR$/backend/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/TransactionRepository.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="83" lean-forward="false" selection-start-line="5" selection-start-column="83" selection-end-line="5" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/EmployeeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="65" lean-forward="false" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/TransactionType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="6" lean-forward="false" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/BillingStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/View.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="18" lean-forward="false" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/MainViewComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="25" column="23" lean-forward="false" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/report/ReportView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/EmployeeViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="33" column="0" lean-forward="true" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/MainViewModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="69" column="5" lean-forward="false" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ServiceConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="35" column="59" lean-forward="false" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AbstractViewComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="42" column="25" lean-forward="false" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/MainView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/menu/MenuItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/menu/MenuView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/components/menu/MenuItemProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/LoginView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/WindowManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-542">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/EmployeeView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewComponentConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" column="67" lean-forward="true" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/EnableBinding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="31" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/ItemWiring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="110" column="84" lean-forward="true" selection-start-line="104" selection-start-column="11" selection-end-line="110" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/ItemBound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="40" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/EnableBound.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="15" lean-forward="false" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/ViewModelComposer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding>
-            <element signature="e#3124#3125#0" expanded="false" />
-            <element signature="e#3161#3162#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/Processor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="23" lean-forward="false" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="146">
+          <caret line="46" column="32" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/TransactionViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="281">
+          <caret line="80" column="55" lean-forward="false" selection-start-line="80" selection-start-column="55" selection-end-line="80" selection-end-column="55" />
           <folding>
-            <element signature="e#1131#1132#0" expanded="false" />
-            <element signature="e#1190#1191#0" expanded="false" />
-            <element signature="e#1274#1275#0" expanded="false" />
-            <element signature="e#1327#1328#0" expanded="false" />
+            <element signature="e#5466#5467#0" expanded="true" />
+            <element signature="e#5506#5507#0" expanded="true" />
+            <element signature="e#5867#5868#0" expanded="true" />
+            <element signature="e#5921#5922#0" expanded="true" />
+            <element signature="e#7662#7663#0" expanded="true" />
+            <element signature="e#7716#7717#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/TransactionService.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/TransactionAbsenceProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="23" column="21" lean-forward="false" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1467#1468#0" expanded="false" />
-            <element signature="e#1546#1547#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="153">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Transaction.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.jar!/org/hibernate/annotations/Cascade.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding>
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#1658#1659#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1746#1747#0" expanded="true" />
-            <element signature="e#1794#1795#0" expanded="true" />
-            <element signature="e#1918#1919#0" expanded="true" />
-            <element signature="e#1956#1957#0" expanded="true" />
-            <element signature="e#2139#2140#0" expanded="true" />
-            <element signature="e#2175#2176#0" expanded="true" />
-            <element signature="e#2240#2241#0" expanded="true" />
-            <element signature="e#2290#2291#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/ManyToOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="112" column="0" lean-forward="true" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/GeneratedValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="57" column="18" lean-forward="false" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/Enumerated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/ReportEntity.java" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/ReportCriterion.java" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/TransactionSettlementProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" lean-forward="true" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/ReportRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="false" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/EmployeeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="8" column="74" lean-forward="true" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/1.11.9.RELEASE/spring-data-jpa-1.11.9.RELEASE.jar!/org/springframework/data/jpa/domain/Specification.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/ColumnDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/EmployeeProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/TransactionView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1598">
+          <caret line="200" column="5" lean-forward="true" selection-start-line="200" selection-start-column="5" selection-end-line="200" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1089,144 +1088,269 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="28" column="5" lean-forward="false" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewModelConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="36" column="125" lean-forward="false" selection-start-line="36" selection-start-column="125" selection-end-line="36" selection-end-column="125" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AsyncGridComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="52" selection-end-line="17" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/HasValueComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/vaadin/vaadin-server/8.2.0/vaadin-server-8.2.0.jar!/com/vaadin/ui/UI.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="729" column="0" lean-forward="false" selection-start-line="729" selection-start-column="0" selection-end-line="729" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/ListingWiring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="51" column="87" lean-forward="true" selection-start-line="51" selection-start-column="87" selection-end-line="51" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/Lob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" column="59" lean-forward="true" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/MainViewModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        <state relative-caret-position="528">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/TransactionWorkingTimeProcessor.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/util/FileConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/TransactionAbsenceProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/TransactionView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="64" column="127" lean-forward="false" selection-start-line="64" selection-start-column="127" selection-end-line="64" selection-end-column="127" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/mvvm/EnableBoundWiring.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="62" column="84" lean-forward="false" selection-start-line="62" selection-start-column="84" selection-end-line="62" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="106" column="60" lean-forward="true" selection-start-line="106" selection-start-column="60" selection-end-line="106" selection-end-column="60" />
+        <state relative-caret-position="147">
+          <caret line="7" column="28" lean-forward="false" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="e#2083#2084#0" expanded="true" />
-            <element signature="e#2135#2136#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="false" />
+            <element signature="e#181#182#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudTransactionViewComponent.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="53" column="38" lean-forward="false" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        <state relative-caret-position="310">
+          <caret line="44" column="22" lean-forward="false" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/Processor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/processor/ReportFileProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="56" column="27" lean-forward="false" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/NotificationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/VaadinConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        <state relative-caret-position="183">
+          <caret line="46" column="61" lean-forward="false" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ViewModelConfiguration.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/configuration/ServiceConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="183">
+          <caret line="43" column="124" lean-forward="false" selection-start-line="43" selection-start-column="124" selection-end-line="43" selection-end-column="124" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudEmployeeViewComponent.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/ReportViewModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="659">
-          <caret line="63" column="0" lean-forward="false" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="252">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/CrudEmployeeProfileViewComponent.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Report.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="66" column="41" lean-forward="true" selection-start-line="66" selection-start-column="41" selection-end-line="66" selection-end-column="41" />
+        <state relative-caret-position="409">
+          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+          <folding>
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#844#845#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/ReportingPeriod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+          <folding>
+            <marker date="1524321880053" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1524321880053" expanded="false" signature="157:776" ph="..." />
+            <marker date="1524321880053" expanded="true" signature="1212:1549" ph="{...}" />
+            <marker date="1524321880053" expanded="false" signature="1579:1590" ph=" { " />
+            <marker date="1524321880053" expanded="false" signature="1647:1653" ph=" }" />
+            <marker date="1524321880053" expanded="true" signature="1707:2118" ph="{...}" />
+            <marker date="1524321880053" expanded="true" signature="2203:3026" ph="{...}" />
+            <marker date="1524321880053" expanded="true" signature="3114:6007" ph="{...}" />
+            <marker date="1524321880053" expanded="true" signature="6049:6824" ph="{...}" />
+            <marker date="1524321880053" expanded="true" signature="6852:6960" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final-sources.jar!/javax/persistence/criteria/Path.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="113" column="16" lean-forward="false" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/domain/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="146" column="51" lean-forward="true" selection-start-line="146" selection-start-column="51" selection-end-line="146" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.13.RELEASE/spring-aop-4.3.13.RELEASE-sources.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="238" column="0" lean-forward="false" selection-start-line="238" selection-start-column="0" selection-end-line="238" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vaadin/src/main/java/de/flxplzk/vaadin/common/AsyncTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+        <state relative-caret-position="556">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudTransactionViewModel.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_172/src.zip!/java/io/ByteArrayInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="108" column="17" lean-forward="true" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        <state relative-caret-position="199">
+          <caret line="102" column="11" lean-forward="false" selection-start-line="102" selection-start-column="11" selection-end-line="102" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/util/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="81" lean-forward="false" selection-start-line="14" selection-start-column="81" selection-end-line="14" selection-end-column="81" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3726#3727#0" expanded="true" />
-            <element signature="e#3757#3758#0" expanded="true" />
+            <element signature="e#317#451#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudEmployeeViewModel.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/components/ReportViewComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="758">
+          <caret line="143" column="0" lean-forward="true" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/ui/view/model/CrudEmployeeProfileViewModel.java">
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/TransactionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/service/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1400#1401#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main/java/de/flxplzk/frontend/backend/repository/TransactionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="6" lean-forward="true" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

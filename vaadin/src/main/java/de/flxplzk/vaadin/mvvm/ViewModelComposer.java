@@ -27,6 +27,7 @@ public class ViewModelComposer {
             , new OnClickWiring()
             , new OnComponentEventWiring()
             , new EnableBoundWiring()
+            , new SelectionWiring()
     };
     private final ApplicationContext applicationContext;
     private final Map<Long, List<Wiring.Binding>> bindings = new HashMap<>();
