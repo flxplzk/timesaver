@@ -16,6 +16,7 @@ public class Transaction {
     private long id;
 
     @ManyToOne
+    @Column(name = Transaction_.EMPLOYEE)
     private Employee employee;
 
     @Enumerated(EnumType.STRING)
@@ -135,6 +136,7 @@ public class Transaction {
         public static final String MINUTES_BREAK = "MINUTES_BREAK";
         public static final String BILLING_STATUS = "BILLING_STATUS";
         public static final String AMOUNT = "AMOUNT";
+        public static final String EMPLOYEE = "EMPLOYEE";
     }
 
     public static class TransactionSpecifications {
@@ -145,7 +147,12 @@ public class Transaction {
                             root.get(Transaction_.TRANSACTION_DATE),
                             reportingPeriod.getFrom(),
                             reportingPeriod.getTo()
-                            );
+                    );
+        }
+
+        public static Specification<Transaction> forEmployeeSummary(final Employee employee) {
+            return (root, criteriaQuery, criteriaBuilder) -> criteriaBuilder
+                    .equal(root.get(Transaction_.EMPLOYEE), employee);
         }
     }
 }

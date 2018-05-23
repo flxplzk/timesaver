@@ -22,6 +22,7 @@ public class CrudEmployeeViewModel implements HasValue.ValueChangeListener<Emplo
     private final SpringNavigator navigator;
     private Subscribable.Registration registration;
 
+    private final Property<Employee> param = new Property<>(new Employee());
     private final Property<Employee> model = new Property<>(new Employee());
     private final Property<String> firstName = new Property<>("");
     private final Property<String> lastName = new Property<>("");
@@ -36,8 +37,15 @@ public class CrudEmployeeViewModel implements HasValue.ValueChangeListener<Emplo
         this.notificationManager = notificationManager;
         this.profiles.setValue(this.employeeProfileService.findAll());
         this.model.addValueChangeListener(this);
+        this.param.addValueChangeListener(this::paramChange);
         this.navigator = springNavigator;
         this.registration = this.employeeProfileService.addListener(new EmployeeServiceListener());
+    }
+
+    private void paramChange(HasValue.ValueChangeEvent<Employee> employeeValueChangeEvent) {
+        if (!this.model.getValue().equals(this.param.getValue())){
+            this.model.setValue(this.param.getValue());
+        }
     }
 
     public void setModel(Employee model) {

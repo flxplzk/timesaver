@@ -4,6 +4,7 @@ import com.vaadin.data.HasValue;
 import com.vaadin.shared.Registration;
 import com.vaadin.ui.*;
 import com.vaadin.ui.themes.ValoTheme;
+import de.flxplzk.frontend.backend.domain.Employee;
 import de.flxplzk.frontend.backend.domain.EmployeeProfile;
 import de.flxplzk.vaadin.common.AbstractViewComponent;
 import de.flxplzk.vaadin.mvvm.*;
@@ -12,9 +13,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 @View(model = "crudEmployeeViewModel")
-public class CrudEmployeeViewComponent extends AbstractViewComponent implements HasValue.ValueChangeListener {
+public class CrudEmployeeViewComponent extends AbstractViewComponent
+        implements HasValue.ValueChangeListener, Paramizeable<Employee> {
 
     private List<Registration> registrations = new ArrayList<>();
+
+    @ItemBound(to = "param")
+    private final HasValue<Employee> param = new Property<>(new Employee());
 
     @ItemBound(to = "firstName")
     private final TextField mFirstName = new TextField("Vorname:");
@@ -81,5 +86,10 @@ public class CrudEmployeeViewComponent extends AbstractViewComponent implements 
         } else {
             this.mSaveButton.setEnabled(true);
         }
+    }
+
+    @Override
+    public void withParam(Employee param) {
+        this.param.setValue(param);
     }
 }

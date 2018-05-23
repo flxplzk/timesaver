@@ -1,9 +1,7 @@
 package de.flxplzk.frontend.backend.service;
 
 import com.google.common.collect.Lists;
-import de.flxplzk.frontend.backend.domain.BillingStatus;
-import de.flxplzk.frontend.backend.domain.Transaction;
-import de.flxplzk.frontend.backend.domain.TransactionType;
+import de.flxplzk.frontend.backend.domain.*;
 import de.flxplzk.frontend.backend.processor.Processor;
 import de.flxplzk.frontend.backend.processor.TransactionAbsenceProcessor;
 import de.flxplzk.frontend.backend.processor.TransactionSettlementProcessor;
@@ -46,6 +44,12 @@ public class TransactionService implements Subscribable<Transaction> {
             throw new TransactionAlreadyBilledException("Die Buchung wurde bereits fakturiert und kann deshalb nicht gelöscht oder verändert werden");
         this.transactionRepository.delete(savedEntity);
         this.notifyChange(savedEntity);
+    }
+
+    public TransactionSummary getSummarryForEmployee(final Employee employee) {
+        List<Transaction> transactions =
+                this.transactionRepository.findAll(Transaction.TransactionSpecifications.forEmployeeSummary(employee));
+        return TransactionSummary.of(transactions);
     }
 
     private void calculate(Transaction model) {

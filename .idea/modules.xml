@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/frontend/frontend.iml" filepath="$PROJECT_DIR$/frontend/frontend.iml" />
-      <module fileurl="file://$PROJECT_DIR$/timesaver.iml" filepath="$PROJECT_DIR$/timesaver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frontend/frontend.iml" filepath="$PROJECT_DIR$/frontend/frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/timesaver.iml" filepath="$PROJECT_DIR$/.idea/timesaver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vaadin/vaadin.iml" filepath="$PROJECT_DIR$/vaadin/vaadin.iml" />
       <module fileurl="file://$PROJECT_DIR$/vaadin/vaadin.iml" filepath="$PROJECT_DIR$/vaadin/vaadin.iml" />
     </modules>
   </component>
